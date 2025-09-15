@@ -1,0 +1,5 @@
+# canonical mapping: canonical_name -> class_id
+# add initial classes you expect; pipeline will normalize labels to these
+names:
+  cow_ghee: 0
+
