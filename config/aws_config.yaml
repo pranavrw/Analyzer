@@ -1,0 +1,11 @@
+# AWS S3 Configuration
+# Override these settings with environment variables for production
+
+s3:
+  bucket_name: "yolo_project"  # Change this to your bucket name
+  region: "us-east-1"
+  
+# Note: AWS credentials should be configured via:
+# - Environment variables (AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY)
+# - IAM roles (recommended for production)
+# - AWS credentials file (~/.aws/credentials)
